@@ -15,6 +15,11 @@ import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.system.MemoryStack.stackPush;
 import static org.lwjgl.system.MemoryUtil.NULL;
 
+/**
+ * <p>Демонстрация окна с канвасом OpenGL.</p>
+ * Цвет фона меняется от жёлтого к белому и обратно к жёлтому циклически.
+ * Для выхода из программы нажать на клавиатуре кнопку ESC.
+ */
 public class HelloWorld {
 
     // The window handle
